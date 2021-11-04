@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gauss.cs" />
+    <Compile Include="Lagrang.cs" />
+    <Compile Include="Newton.cs" />
+    <Compile Include="Progonka.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReshenieSlau.cs" />
+    <Compile Include="Splayni.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
