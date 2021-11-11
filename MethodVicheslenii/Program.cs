@@ -13,7 +13,8 @@ namespace MethodVicheslenii
             //ReshenieSlau.ReshenieSlauM();
             //Lagrang.MethodLagranga();
             //Newton.NewtonM();
-            Gauss.GaussM();
+            //Gauss.GaussM();
+            Progonka.ProgonkaM();
             Console.ReadLine();
         } 
     }
