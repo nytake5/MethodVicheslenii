@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MethodVicheslenii._3_razdel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,10 @@ namespace MethodVicheslenii
             //Lagrang.MethodLagranga();
             //Newton.NewtonM();
             //Gauss.GaussM();
-            Progonka.ProgonkaM();
+            //Progonka.ProgonkaM();
+            //SimpleIteration.SimpleIterationM();
+            //Eiler.MainEiler();
+            RaznostniiMethod.MainRz();
             Console.ReadLine();
         } 
     }

@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gauss.cs" />
-    <Compile Include="Lagrang.cs" />
-    <Compile Include="Newton.cs" />
-    <Compile Include="Progonka.cs" />
+    <Compile Include="2 razdel\Gauss.cs" />
+    <Compile Include="1 razdel\Lagrang.cs" />
+    <Compile Include="1 razdel\Newton.cs" />
+    <Compile Include="2 razdel\Progonka.cs" />
+    <Compile Include="3 razdel\Eiler.cs" />
+    <Compile Include="3 razdel\RaznostniiMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReshenieSlau.cs" />
-    <Compile Include="Splayni.cs" />
+    <Compile Include="1 razdel\ReshenieSlau.cs" />
+    <Compile Include="2 razdel\SimpleIteration.cs" />
+    <Compile Include="1 razdel\Splayni.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

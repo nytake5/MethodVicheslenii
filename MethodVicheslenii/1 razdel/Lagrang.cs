@@ -48,9 +48,7 @@ namespace MethodVicheslenii
                 zn = 1;
                 ans += temp;
             }
-
             Console.WriteLine(ans);
-
         }
     }
 }

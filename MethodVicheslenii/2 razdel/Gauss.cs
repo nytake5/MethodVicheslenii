@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace MethodVicheslenii
 {
-
     class Gauss
     {
         static int n = 5;
@@ -122,7 +121,6 @@ namespace MethodVicheslenii
                     x[i] -= x[j] * aRes[i][j];
                 }
             }
-            Write(aRes);
             return x;
         }
 
