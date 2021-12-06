@@ -48,6 +48,7 @@
     <Compile Include="1 razdel\Newton.cs" />
     <Compile Include="2 razdel\Progonka.cs" />
     <Compile Include="3 razdel\Eiler.cs" />
+    <Compile Include="3 razdel\NeopKoeff.cs" />
     <Compile Include="3 razdel\RaznostniiMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

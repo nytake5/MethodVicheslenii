@@ -73,7 +73,7 @@ namespace MethodVicheslenii
         public static double[] MethodGauss(double[][] aNow, double[] b, int f)
         {
             double[][] aRes = new double[n][];
-            for (int i = 0; i < n; i++)// перекопируем значения, дабы не менять исходный массив
+            for (int i = 0; i < n; i++)
             {
                 aRes[i] = new double[n];
                 for (int j = 0; j < n; j++)
@@ -92,10 +92,10 @@ namespace MethodVicheslenii
                     {
                         break;
                     }
-                    Swap(aRes, i, index);//если элемент на главной диагонали
-                    double tmp = b[i];// равен нулю, то тогла поменяем строку 
-                    b[i] = b[index];//с этим элементом местами со строкой с максимальным
-                    b[index] = tmp;// элементом в текущем столбце
+                    Swap(aRes, i, index);
+                    double tmp = b[i];
+                    b[i] = b[index];
+                    b[index] = tmp;
                 }
                 double mainEl = aRes[i][i];
                 opredelitel *= mainEl;

@@ -18,7 +18,8 @@ namespace MethodVicheslenii
             //Progonka.ProgonkaM();
             //SimpleIteration.SimpleIterationM();
             //Eiler.MainEiler();
-            RaznostniiMethod.MainRz();
+            //RaznostniiMethod.MainRz();
+            NeopKoeff.MainNK();
             Console.ReadLine();
         } 
     }
