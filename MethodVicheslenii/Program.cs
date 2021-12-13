@@ -1,4 +1,5 @@
 ﻿using MethodVicheslenii._3_razdel;
+using MethodVicheslenii._4_razdel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,9 @@ namespace MethodVicheslenii
             //SimpleIteration.SimpleIterationM();
             //Eiler.MainEiler();
             //RaznostniiMethod.MainRz();
-            NeopKoeff.MainNK();
+            //NeopKoeff.MainNK();
+            //FredGolm.MainNK();
+            NeopFredgolm.MainNK();
             Console.ReadLine();
         } 
     }

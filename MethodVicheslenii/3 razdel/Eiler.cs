@@ -27,13 +27,13 @@ namespace MethodVicheslenii._3_razdel
             double[] yResM = new double[n];
             double[] yResT = new double[n];
             double[] E = new double[n];
-            yResM[0] = (v + h) * h * h;
+            yResM[0] = v * h * h;
             double x0 = 0;
             for (int i = 0; i < n; i++)
             {
                 x0 += h;
                 x[i] = x0;
-                yResT[i] = x0 * x0 * (x0 + v);
+                yResT[i] = x0 * x0 * v;
             }
             #endregion
             for (int i = 1; i < n; i++)
@@ -64,13 +64,13 @@ namespace MethodVicheslenii._3_razdel
             double[] yResM = new double[n];
             double[] yResT = new double[n];
             double[] E = new double[n];
-            yResM[0] = (v + h) * h * h;
+            yResM[0] = v * h * h;
             double x0 = 0;
             for (int i = 0; i < n; i++)
             {
                 x0 += h;
                 x[i] = x0;
-                yResT[i] = x0 * x0 * (x0 + v);
+                yResT[i] = x0 * x0 * v;
             }
             #endregion
             for (int i = 1; i < n; i++)
@@ -101,13 +101,13 @@ namespace MethodVicheslenii._3_razdel
             double[] yResM = new double[n];
             double[] yResT = new double[n];
             double[] E = new double[n];
-            yResM[0] = (v + h) * h * h;
+            yResM[0] = v * h * h;
             double x0 = 0;
             for (int i = 0; i < n; i++)
             {
                 x0 += h;
                 x[i] = x0;
-                yResT[i] = x0 * x0 * (x0 + v);
+                yResT[i] = x0 * x0 * v;
             }
             #endregion
             for (int i = 1; i < n; i++)

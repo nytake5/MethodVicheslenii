@@ -50,6 +50,8 @@
     <Compile Include="3 razdel\Eiler.cs" />
     <Compile Include="3 razdel\NeopKoeff.cs" />
     <Compile Include="3 razdel\RaznostniiMethod.cs" />
+    <Compile Include="4 razdel\FredGolm.cs" />
+    <Compile Include="4 razdel\NeopFredgolm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1 razdel\ReshenieSlau.cs" />
